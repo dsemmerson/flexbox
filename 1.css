@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box; 
+}
+body {
+display: flex;
+min-height: auto;
+flex-direction: row;
+margin: 0;
+}
+.col-1 {
+background: #69c7c4;
+flex: 1;
+}
+.col-2 {
+display: flex;
+flex-direction: column;
+margin: 10px 20%;
+flex: 5;
+}
+.content {
+display: flex;
+flex-direction: row;
+}
+h1{
+    text-align: start;
+}
+.content > article {
+text-align: center;
+flex: 2;
+min-height: 150px;
+
+}
+.content>div {
+    flex: 5;
+    min-height: 10px;
+    background-color: rgb(223, 199, 199);
+}
+.content > aside {
+background: #cfedec;
+flex: 1;
+}
+header, footer {
+background: #1b9a96;
+height: 20vh;
+}
+header, footer, article, nav, aside {
+padding: 1em;
+}
