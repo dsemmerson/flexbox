@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        table{
+            border-collapse: separate;
+            margin: auto;
+            max-width: 100%;
+           
+
+        }
+        caption{
+            font-size: 1em;
+            font-weight: bolder;
+            padding: 5px;
+        }
+        th,td{
+            border: 1px solid black;
+            text-align: center;
+            width: 150px;
+            height: 50px;   
+        }
+        .color{
+            background-color: azure;
+
+        }
+        .essa{
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <table>
+                <colgroup>
+                    <col class="color">
+                    <col class="color">
+                    <col class="color">
+                    
+                </colgroup>
+
+                <caption>NOTA FINAL</caption>
+                <tr>
+                    <th></th>
+                    <th>N1</th>
+                    <th>N2</th>
+                </tr>
+                <tr>
+                    <th>João</th>
+                    <td>8</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <th>Maria</th>
+                    <td>2</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <th>Pedro</th>
+                    <td>5</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <th>Roberta</th>
+                    <td>5</td>
+                    <td>10</td>
+                </tr>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">A SOMA É</td>
+                    </tr>
+
+                </tfoot>
+            </table>
+        </section>
+    </main>
+    
+</body>
+</html>
